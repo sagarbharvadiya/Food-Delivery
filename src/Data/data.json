@@ -1,0 +1,142 @@
+{
+    "slider": [
+        {
+            "title": "Organic products for your",
+            "subtitle": "Mouthwatering Pizza And Barcon  ",
+            "subtitles": "Burger",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            "button": "Shop Now",
+            "image": "../images/hr1.jpg"
+        },
+        {
+            "title": "Organic products for your",
+            "subtitle": "Pasta Italian cuisine ",
+            "subtitles": "Franche Fries",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            "button": "Shop Now",
+            "image": "../images/hr1.jpg"
+        },
+        {
+            "title": "Organic products for your",
+            "subtitle": "Hamburger Pasta &amp; Italian cuisine  ",
+            "subtitles": "Pizza",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+            "button": "Shop Now",
+            "image": "../images/hr1.jpg"
+        }
+    ],
+    "AboutShop": [
+        {
+            "image": "../images/chaf2.jpg",
+            "about": "Know More About Shop",
+            "title": "Trusted Fast Food Store",
+            "description": "Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Harum, nulla quis similique, inventore quasi t rem eius incidunt eos cumque itaqueexercitationem debitis, earum expedita alias!",
+            "description1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatibus ea ipsum harum ducimus, nam delectus, suscipit laudantium, at rem eius incidunt eos cumque itaque exercitationem debitis, earum expedita alias!",
+            "name": "Nurul Hasan",
+            "positon": "Shop Director"
+        }
+    ],
+    "whyChooseUs": [
+        {
+            "image": "../images/hamburger-solid.svg",
+            "title": "Mix Masala Fresh & Soft",
+            "description": "Lorem ipsum dolor, sit amet dolore maiores, harum, velit optio aut? Optio minus sit quas, atque tempore quisquam obcaecati, vel dolor."
+        },
+        {
+            "image": "../images/utensils-solid.svg",
+            "title": "Every Time Healty Food",
+            "description": "Lorem ipsum dolor, sit amet dolore maiores, harum, velit optio aut? Optio minus sit quas, atque tempore quisquam obcaecati, vel dolor."
+        },
+        {
+            "image": "../images/pizza-slice-solid.svg",
+            "title": "All Kind Brand",
+            "description": "Lorem ipsum dolor, sit amet dolore maiores, harum, velit optio aut? Optio minus sit quas, atque tempore quisquam obcaecati, vel dolor."
+        }
+    ],
+    "ourTeam": [
+        {
+            "image": "../images/team1.jpg",
+            "name": "Abdur Rahim",
+            "positon": "FOUNDER",
+            "facebook": "",
+            "twitter": "",
+            "google": ""
+        },
+        {
+            "image": "../images/team2.jpg",
+            "name": "Noman",
+            "positon": "FOUNDER",
+            "facebook": "",
+            "twitter": "",
+            "google": ""
+        },
+        {
+            "image": "../images/team3.jpg",
+            "name": "Jahik Islam",
+            "positon": "FOUNDER",
+            "facebook": "",
+            "twitter": "",
+            "google": ""
+        },
+        {
+            "image": "../images/team4.jpg",
+            "name": "Rabaul Hoq",
+            "positon": "FOUNDER",
+            "facebook": "",
+            "twitter": "",
+            "google": ""
+        }
+    ],
+    "Clients": [
+        {
+            "image": "../images/client2.jpg",
+            "name": "Abdur Rahim",
+            "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
+            "review": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "image": "../images/client2.jpg",
+            "name": "Noman",
+            "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
+            "review": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "image": "../images/client2.jpg",
+            "name": "Jahik Islam",
+            "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
+            "review": "⭐⭐⭐⭐⭐"
+        },
+        {
+            "image": "../images/client2.jpg",
+            "name": "Jahik Islam",
+            "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
+            "review": "⭐⭐⭐⭐⭐"
+        }
+    ],
+    "foodstories": [
+        {
+            "image": "../images/blog1.jpg",
+            "name": "PERSON HOLDING A SLCIE OF PIZZA",
+            "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
+            "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
+        },
+        {
+            "image": "../images/blog1.jpg",
+            "name": "PERSON HOLDING A SLCIE OF PIZZA",
+            "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
+            "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
+        },
+        {
+            "image": "../images/blog1.jpg",
+            "name": "PERSON HOLDING A SLCIE OF PIZZA",
+            "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
+            "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
+        },
+        {
+            "image": "../images/blog1.jpg",
+            "name": "PERSON HOLDING A SLCIE OF PIZZA",
+            "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
+            "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
+        }
+    ]
+}
