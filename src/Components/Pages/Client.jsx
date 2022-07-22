@@ -1,6 +1,5 @@
 import React from 'react'
 import dataJson from '../../Data/data.json'
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Delivery from './Delivery';
 
@@ -12,13 +11,14 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper";
+import OurFoodStories from './OurFoodStories';
 
 const Client = () => {
   return (
     <>
       <section className='client'>
         <div className='container'>
-          <div className='title sem-title'>
+          <div className='sem-title'>
             <h1>Clients Says</h1>
           </div>
           <Swiper
@@ -46,7 +46,7 @@ const Client = () => {
             className="mySwiper"
           >
             {dataJson.Clients.map((d, i) => (
-              <SwiperSlide>
+              <SwiperSlide key={d.id}>
                 <div className='client-box'>
                   <div className='d-flex' >
                     <div className='client-img'>
@@ -65,7 +65,7 @@ const Client = () => {
           </Swiper>
         </div>
       </section>
-
+   <OurFoodStories/>
       <Delivery />
     </>
   )

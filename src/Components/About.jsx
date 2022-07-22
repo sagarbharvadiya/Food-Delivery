@@ -17,8 +17,8 @@ const About = () => {
               </div>
               <div className='about-menu'>
                 <ul className='d-flex'>
-                  <li className='d-inline-block'><a className='text-decoration-none' href="#Home">Home</a></li>
-                  <li className='d-inline-block'><a className='text-decoration-none' href="#About">About</a></li>
+                  <li className='d-inline-block'><a className='text-decoration-none' href="/">Home</a></li>
+                  <li className='d-inline-block'><a className='text-decoration-none' href="/About">About</a></li>
                 </ul>
               </div>
             </div>
@@ -27,7 +27,7 @@ const About = () => {
         <div className='about-shop-main'>
           <div className='container'>
             {dataJson.AboutShop.map((d, i) => (
-              <div className='about-shop d-flex gap-5 align-items-center m-auto'>
+              <div className='about-shop d-flex gap-5 align-items-center m-auto' key={d.id}>
                 <div className='about-shop-img mt-5'>
                   <img src={d.image} alt="img" />
                 </div>

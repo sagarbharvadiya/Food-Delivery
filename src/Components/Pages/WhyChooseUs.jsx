@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
                     </div>
                     <div className='d-flex justify-content-between'>
                         {dataJson.whyChooseUs.map((d, i) => (
-                            <div className='box-1'>
+                            <div className='box-1' key={d.id}>
                                 <img src={d.image} alt="img" />
                                 <h2>{d.title}</h2>
                                 <p>{d.description}</p>

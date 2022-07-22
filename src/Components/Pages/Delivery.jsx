@@ -1,5 +1,5 @@
 import React from 'react'
-import OurFoodStories from './OurFoodStories'
+// import OurFoodStories from './OurFoodStories'
 
 const Delivery = () => {
   return (
@@ -21,7 +21,7 @@ const Delivery = () => {
           </div>
         </div>
       </section>
-<OurFoodStories/>
+{/* <OurFoodStories/> */}
     </>
   )
 }

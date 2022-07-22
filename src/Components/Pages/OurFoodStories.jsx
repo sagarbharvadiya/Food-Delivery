@@ -39,7 +39,7 @@ const OurFoodStories = () => {
                             className="mySwiper"
                         >
                             {dtaJson.foodstories.map((d,i)=>(
-                            <SwiperSlide> 
+                            <SwiperSlide key={d.id}> 
                                 <div className='food-box'>
                                 <div className='food-img'>
                                     <img src={d.image} alt="img" />

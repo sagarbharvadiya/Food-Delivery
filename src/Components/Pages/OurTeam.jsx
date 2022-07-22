@@ -12,7 +12,7 @@ const OurTeam = () => {
                     </div>
                     <div className='d-flex justify-content-between'>
                         {dataJson.ourTeam.map((d, i) => (
-                            <div className='team-member'>
+                            <div className='team-member' key={d.id}>
                                 <img src={d.image} alt="img" />
                                 <div className='team-content'>
                                 <h2>{d.name}</h2>

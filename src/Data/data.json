@@ -1,6 +1,7 @@
 {
     "slider": [
         {
+            "id":"1",
             "title": "Organic products for your",
             "subtitle": "Mouthwatering Pizza And Barcon  ",
             "subtitles": "Burger",
@@ -9,6 +10,7 @@
             "image": "../images/hr1.jpg"
         },
         {
+            "id":"2",
             "title": "Organic products for your",
             "subtitle": "Pasta Italian cuisine ",
             "subtitles": "Franche Fries",
@@ -17,6 +19,7 @@
             "image": "../images/hr1.jpg"
         },
         {
+            "id":"3",
             "title": "Organic products for your",
             "subtitle": "Hamburger Pasta &amp; Italian cuisine  ",
             "subtitles": "Pizza",
@@ -25,8 +28,88 @@
             "image": "../images/hr1.jpg"
         }
     ],
+    "products": [
+        {
+            "id":"1",
+            "image": "../images/1.jpg",
+            "label":"sale",
+            "review":"⭐⭐⭐⭐⭐",
+            "name":"Burger With Vegetable",
+            "price":"$ 15.00",
+            "dub-price":"$ 20.00"
+        },
+        {
+            "id":"2",
+            "image": "../images/2.jpg",
+            "label":"sale",
+            "review":"⭐⭐⭐⭐",
+            "name":"BPerson Holding a Burger",
+            "price":"$ 25.00",
+            "dub-price":"$ 35.00"
+        },
+        {
+            "id":"3",
+            "image": "../images/3.jpg",
+            "label":"-15%",
+            "review":"⭐⭐⭐⭐",
+            "name":"Pasta With Red Sauce",
+            "price":"$ 10.00",
+            "dub-price":"$ 20.00"
+        },
+        {
+            "id":"4",
+            "image": "../images/4.jpg",
+            "label":"sale",
+            "review":"⭐⭐",
+            "name":"Person Holding Pizza",
+            "price":"$ 24.00",
+            "dub-price":"$ 30.00"
+            
+        },
+        {
+            "id":"5",
+            "image": "../images/5.jpg",
+            "label":"-23%",
+            "review":"⭐⭐⭐⭐",
+            "name":"Burger With Lettuce",
+            "price":"$ 15.00",
+            "dub-price": "$ 20.00"
+            
+        },
+        {
+            "id":"6",
+            "image": "../images/9.jpg",
+            "label":"sale",
+            "review":"⭐⭐⭐⭐⭐",
+            "name":"Pasta on Brown Surface",
+            "price":"$ 24.00",
+            "dub-price":"$ 30.00"
+            
+        },
+        {
+            "id":"7",
+            "image": "../images/15.jpg",
+            "label":"sale",
+            "review":"⭐⭐⭐⭐",
+            "name":"Burger With Vegetable",
+            "price":"$ 15.00",
+            "dub-price":"$ 20.00"
+            
+        },
+        {
+            "id":"8",
+            "image": "../images/2-1.jpg",
+            "label":"-20%",
+            "review":"⭐⭐⭐",
+            "name":"BPerson Holding a Burger",
+            "price":"$ 10.00",
+            "dub-price":"$ 20.00"
+            
+        }
+    ],
     "AboutShop": [
         {
+            "id":"1",
             "image": "../images/chaf2.jpg",
             "about": "Know More About Shop",
             "title": "Trusted Fast Food Store",
@@ -38,16 +121,19 @@
     ],
     "whyChooseUs": [
         {
+            "id":"1",
             "image": "../images/hamburger-solid.svg",
             "title": "Mix Masala Fresh & Soft",
             "description": "Lorem ipsum dolor, sit amet dolore maiores, harum, velit optio aut? Optio minus sit quas, atque tempore quisquam obcaecati, vel dolor."
         },
         {
+            "id":"2",
             "image": "../images/utensils-solid.svg",
             "title": "Every Time Healty Food",
             "description": "Lorem ipsum dolor, sit amet dolore maiores, harum, velit optio aut? Optio minus sit quas, atque tempore quisquam obcaecati, vel dolor."
         },
         {
+            "id":"3",
             "image": "../images/pizza-slice-solid.svg",
             "title": "All Kind Brand",
             "description": "Lorem ipsum dolor, sit amet dolore maiores, harum, velit optio aut? Optio minus sit quas, atque tempore quisquam obcaecati, vel dolor."
@@ -55,6 +141,7 @@
     ],
     "ourTeam": [
         {
+            "id":"1",
             "image": "../images/team1.jpg",
             "name": "Abdur Rahim",
             "positon": "FOUNDER",
@@ -63,6 +150,7 @@
             "google": ""
         },
         {
+            "id":"2",
             "image": "../images/team2.jpg",
             "name": "Noman",
             "positon": "FOUNDER",
@@ -71,6 +159,7 @@
             "google": ""
         },
         {
+            "id":"3",
             "image": "../images/team3.jpg",
             "name": "Jahik Islam",
             "positon": "FOUNDER",
@@ -79,6 +168,7 @@
             "google": ""
         },
         {
+            "id":"4",
             "image": "../images/team4.jpg",
             "name": "Rabaul Hoq",
             "positon": "FOUNDER",
@@ -87,26 +177,57 @@
             "google": ""
         }
     ],
+    "Category":[
+        
+        {   "id":"1",
+            "image":"../images/1.jpg",
+            "button":"Burgers"
+        },
+        {   "id":"2",
+            "image":"../images/2.jpg",
+            "button":"French Fries"
+        },
+
+        {   "id":"3",
+            "image":"../images/3.jpg",
+            "button":"Pizza"
+        },
+
+        {   "id":"4",
+            "image":"../images/4.jpg",
+            "button":"Pasta"
+        },
+        {   "id":"5",
+            "image":"../images/1.jpg",
+            "button":"Burgers"
+        }
+
+
+    ],
     "Clients": [
         {
+            "id":"1",
             "image": "../images/client2.jpg",
             "name": "Abdur Rahim",
             "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
             "review": "⭐⭐⭐⭐⭐"
         },
         {
+            "id":"2",
             "image": "../images/client2.jpg",
             "name": "Noman",
             "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
             "review": "⭐⭐⭐⭐⭐"
         },
         {
+            "id":"3",
             "image": "../images/client2.jpg",
             "name": "Jahik Islam",
             "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
             "review": "⭐⭐⭐⭐⭐"
         },
         {
+            "id":"4",
             "image": "../images/client2.jpg",
             "name": "Jahik Islam",
             "positon": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?",
@@ -115,28 +236,62 @@
     ],
     "foodstories": [
         {
-            "image": "../images/blog1.jpg",
+            "id":"1","image": "../images/blog1.jpg",
             "name": "PERSON HOLDING A SLCIE OF PIZZA",
             "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
             "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
         },
         {
-            "image": "../images/blog1.jpg",
+            "id":"2","image": "../images/blog1.jpg",
             "name": "PERSON HOLDING A SLCIE OF PIZZA",
             "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
             "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
         },
         {
-            "image": "../images/blog1.jpg",
+            "id":"3","image": "../images/blog1.jpg",
             "name": "PERSON HOLDING A SLCIE OF PIZZA",
             "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
             "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
         },
         {
+            "id":"4",
             "image": "../images/blog1.jpg",
             "name": "PERSON HOLDING A SLCIE OF PIZZA",
             "details": "Comment:   2 Date:  Feb 21,  2016 Author:Rahim",
             "positon": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit ex libero qui eveniet, fuga quod rerum dolore accusamus non accusantium laborum! Tenetur, velit quod obcaecati corrupti enim eos omnis placeat?"
+        }
+    ],
+    "Footer": [
+        {
+            "id":"1",
+            "title": "Quick Links",
+            "link": "About Us",
+            "link1": "Faq",
+            "link2":"Help",
+            "link3": "My Account",
+            "link4": "Blog",
+            "link5":"Contact"
+        },
+        {
+            "id":"2",
+            "title":"Categories",
+            "link": "Pizza",
+            "link1": "Pasta",
+            "link2":"Burgers",
+            "link3": "French Fries",
+            "link4": "bread",
+            "link5":"Macaroni"    
+        },
+
+        {
+            "id":"3",
+            "title": "Contact Info",
+            "link": "House no 35, Palmall street,London,",
+            "link1": "England",
+            "link2":"Email:",
+            "link3": "info@contact.com",
+            "link4": "Support:",
+            "link5":"+1 325 562 3265"     
         }
     ]
 }
