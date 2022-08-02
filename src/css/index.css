@@ -14,6 +14,7 @@ body {
   width: 100%;
   height: auto;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Serif', serif;;
 }
 
 .Navbar {
@@ -363,10 +364,10 @@ a.active {
   background-position: 50%!important;
     background-size: cover!important;
     background-repeat: no-repeat!important;
-}
-.book-deal {
-  padding-top: 120px;
-  padding-bottom: 120px;
+    min-height: 50rem;
+    align-items: center;
+    margin: auto;
+    display: flex;
 }
 .timer.counter {
   color: white;
@@ -379,28 +380,6 @@ a.active {
   font-family: 'Poppins', sans-serif;
   padding-top: 5px;
   padding-left: 20px;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.counter li {
-  display: inline-block;
-  font-size: 1em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-.counter li span {
-  display: block;
-  font-size: 50px;
-  background: #E60A30;
-  width: 90px;
-  height: 71px;
-  text-align: center;
-  margin-bottom: 5px;
-  border-radius: 5px;
 }
 .pt-20 {
   padding-top: 20px;
@@ -416,8 +395,8 @@ ul {
   border: none;
   border-radius: 0;
   overflow: hidden;
-  /* position: relative; */
-  /* z-index: 999; */
+  position: relative;
+  z-index: 9;
   transition: all 1s ease 0s;
   padding: 13px 40px;
   border-radius: 2px;
@@ -435,17 +414,50 @@ ul {
   z-index: -1;
   transition: top .5s ease-in .5s, width .5s ease-out, height .5s ease-out;
 }
+.button-bar .btn:focus, .button-bar .btn:hover {
+  color: #fff;
+  background: transparent;
+}
 .button-bar .btn:focus:before, .button-bar .btn:hover:before {
   width: 200px;
   height: 200px;
   top: 50%;
   transition: top .5s ease-in, width .5s ease-out .5s, height .5s ease-out .5s;
 }
-.button-bar .btn:focus, .button-bar .btn:hover {
-  color: #fff;
-  background: transparent;
+.show-counter ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
-
+ .countdown li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  /* padding: 1em 0; */
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.countdown li span {
+  display: block;
+  font-size: 50px;
+  background: #E60A30;
+  width: 90px;
+  height: 71px;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 4rem !important;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.countdown span{
+  color: #ffff;
+  font-size: 1.0rem !important;
+  margin-top: .5rem;
+}
 /*  */
 
 /* about  */
@@ -980,3 +992,56 @@ form button a {
   font-size: 1.7rem;
   color: #fff;
 }
+/* ........ */
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.expired-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expired-notice > p {
+  font-size: 1.5rem;
+}
+
+.show-counter {
+  padding: 0.5rem;
+}
+
+.show-counter  {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+  /* border: 1px solid #ebebeb; */
+  /* border-radius: 0.25rem; */
+  text-decoration: none;
+  color: #000;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+
+
+/* ............ */

@@ -27,7 +27,8 @@ const Products = () => {
     };
 
     return (
-        <Category>
+        <>
+
             <section className='products'>
                 <div className='container'>
                     <div className='title sem-title'>
@@ -52,8 +53,8 @@ const Products = () => {
                             itemclassName="carousel-item-padding-40-px">
                             {dataJson.products.map((d, i) => (
                                 <>
-                                <div key={d.id}>
-                                    <div className='slider-box'>
+
+                                    <div className='slider-box' key={d.id}>
                                         <div className='img'>
                                             <img src={d.image} alt="img" className=' w-100' />
                                             <span>{d.label}</span>
@@ -64,8 +65,8 @@ const Products = () => {
                                             <h4>{d.price}<del>{d['dub-price']}</del></h4>
                                         </div>
                                     </div>
-                                </div>
-                                   
+
+
                                 </>
                             ))
                             }
@@ -73,7 +74,9 @@ const Products = () => {
                     </div>
                 </div>
             </section>
-        </Category>
+            <Category />
+
+        </>
     )
 }
 

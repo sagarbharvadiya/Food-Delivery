@@ -2,12 +2,15 @@ import React from 'react'
 import dataJson from '../../Data/data.json'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import EveryFestival from './EveryFestival';
-
-
+// import EveryFestival from './';
+import CountdownTimer from '../Pages/CountdownTimer'
 
 
 const Category = () => {
+    const THREE_DAYS_IN_MS = 66 * 24 * 60 * 60 * 1000;
+    const NOW_IN_MS = new Date().getTime();
+  
+    const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
     const responsive = {
 
         superLargeDesktop: {
@@ -66,7 +69,8 @@ const Category = () => {
                     </Carousel>
                 </div>
             </section>
-            <EveryFestival/>
+            {/* <EveryFestival/> */}
+            <CountdownTimer targetDate={dateTimeAfterThreeDays} />
         </>
     )
 }
